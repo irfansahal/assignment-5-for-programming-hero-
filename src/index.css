@@ -119,7 +119,7 @@ code {
   color: transparent;
 }
 .button{
-  background-image: linear-gradient(to right, rgb(211, 62, 8),rgb(246, 20, 167),  hsl(284, 95%, 40%));
+  background-image: linear-gradient(to right, rgb(246, 81, 20),rgb(246, 20, 167),  #8405b3);
   color: #f0ffff;
 }
 .card_container{

@@ -114,7 +114,7 @@
     "name": "Rust",
     "category": "Language",
     "description": "A memory-safe systems language prized for speed and reliability.",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Most Loved"
@@ -264,7 +264,7 @@
     "name": "Axios",
     "category": "Library",
     "description": "A promise-based HTTP client for making requests in browsers and Node.js.",
-    "icon": "https://axios-http.com/assets/logo.svg",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
     "rating": 4.6,
     "difficulty": "Beginner",
     "badge": "HTTP Favorite"
@@ -314,7 +314,7 @@
     "name": "Chart.js",
     "category": "Library",
     "description": "A simple, flexible library for creating responsive charts and graphs.",
-    "icon": "https://cdn.jsdelivr.net/npm/chart.js/docs/favicon.ico",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chartjs/chartjs-original.svg",
     "rating": 4.4,
     "difficulty": "Beginner",
     "badge": "Easy Charts"

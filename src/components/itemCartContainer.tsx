@@ -15,9 +15,13 @@ const CartContainer = ({index,item,stackedData,setStackedData}) => {
          }
     }
     
+    const disableStyle = "text-[#e1eaea6e]  bg-[#0218187b] px-9 py-3 rounded-2xl font-bold"
+    const normaleStyle = "px-9 py-3 rounded-2xl text-amber-50 font-bold bg-black "
+    const borderdisaled = "border-2 border-amber-950"
+
     return(
         <>
-        <div key={index} className="w-[320px] h-[270] md:w-[270px] md:h-[330px] rounded-2xl shadow-md bg-[#f5f0f3]">
+        <div key={index} className={`w-[320px] h-[270] md:w-[270px] md:h-[330px] rounded-2xl shadow-md bg-[#f5f0f3] ${findedData ? borderdisaled: ""}`}>
                 <div className="p-5 rounded-2xl  ">
                  <div className="font-light flex justify-between">
                  <img src={item.icon} className="w-[55px] h-[55px]"/>
@@ -35,14 +39,20 @@ const CartContainer = ({index,item,stackedData,setStackedData}) => {
                   <div className="text-sm text-zinc-600 font-bold">{item.rating}</div>
                  </div>
                   <div className="flex justify-center ">
-                    <div onClick={showErrorHandler}>
+                    <div 
+                      >
                     <button 
-                    className="px-12 py-3 rounded-2xl text-amber-50 font-bold bg-black disabled:text-[#e1eaea6e]  disabled:bg-[#0218187b] "
+                    className={findedData ? disableStyle : normaleStyle}
                      onClick={()=>{
-                      setStackedData([...stackedData, item])
+                      if(findedData){
+                        return toast.error(`you already added ${item.name} technology `)
+                      }else{
+                          setStackedData([...stackedData, item])
+                      }  
                       toast(`Data ${item.name} Successfully`)
+                      showErrorHandler()
                     }}  
-                     disabled={findedData ? true : false }
+                     //disabled={findedData ? true : false }
                     >
                     {findedData ? "✓ Added to Stack" : "Add To Stuck"}
                     </button>
