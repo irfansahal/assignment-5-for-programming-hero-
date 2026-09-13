@@ -21,6 +21,7 @@ const CardStack = ({dataFetching , stackedData , setStackedData  }:CardStackProp
        <>
        {fetchedData?.map((item, index:number)=>{
         return <CartContainer
+               key={item.id}
                index={index} 
                item={item}       
                stackedData={stackedData}
