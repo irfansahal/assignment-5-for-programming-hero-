@@ -2,18 +2,19 @@ import { Suspense, useState } from "react";
 import CardStack from "./card";
 import StackCart from "./stackCart";
 import { toast } from "react-toastify";
+import type { Item } from "../types/type";
 
 
 const MainContent = () => {
-  const dataFetching = async () => {
+  const dataFetching = async (): Promise<Item[]> => {
     const res = await fetch('../../data.json')
     const data = await res.json();
     console.log("data",data);
     
     return data
   }
-  const [ stackedData , setStackedData ] = useState([])
-  const [ promiss ] = useState(dataFetching())
+  const [ stackedData , setStackedData ] = useState<Item[]>([])
+  const [ promiss ] = useState<Promise<Item[]>>(dataFetching())
  
 
     return(

@@ -1,6 +1,15 @@
 import { toast } from "react-toastify"
+import type { Item } from "../types/type";
 
-const CartContainer = ({index,item,stackedData,setStackedData}) => {
+interface CartContainerProps {
+    index: number;
+    item: Item;
+    stackedData: Item[];
+    setStackedData: React.Dispatch<React.SetStateAction<Item[]>>;
+}
+
+
+const CartContainer = ({index,item,stackedData,setStackedData}:CartContainerProps) => {
    
     const findedData = stackedData.find(currentItem=>{
          if(currentItem.id === item.id){

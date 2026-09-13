@@ -1,10 +1,17 @@
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import { toast } from "react-toastify";
+import type { Item } from "../types/type";
 
-const StackCart = ({stackedData, setStackedData}) => {
+interface StackCartProps {
+    stackedData: Item[];
+    setStackedData: React.Dispatch<React.SetStateAction<Item[]>>;
+}
+
+
+const StackCart = ({stackedData, setStackedData}:StackCartProps) => {
     console.log("from stacked cart",stackedData);
     
-     const deleteHandler = (StackedCart) => {
+     const deleteHandler = (StackedCart : Item) => {
           const filteredData = stackedData.filter(item=>{
             if(StackedCart.id !== item.id){
                 return item

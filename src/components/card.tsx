@@ -1,7 +1,15 @@
 import { use } from "react"
 import CartContainer from "./itemCartContainer";
+import type { Item } from "../types/type";
 
-const CardStack = ({dataFetching , stackedData , setStackedData  }) => {
+interface CardStackProps {
+    dataFetching: Promise<Item[]>;
+    stackedData: Item[];
+    setStackedData: React.Dispatch<React.SetStateAction<Item[]>>;
+}
+
+
+const CardStack = ({dataFetching , stackedData , setStackedData  }:CardStackProps) => {
    
 
     console.log("DATA",stackedData);
