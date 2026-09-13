@@ -1,0 +1,290 @@
+[
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "title": "JavaScript",
+    "description": "Learn variables, functions, and loops to start coding in JavaScript",
+    "category": "Language",
+    "level": "Beginner",
+    "popularity": "★★★★★"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "title": "Python",
+    "description": "Master Python syntax, data types, and simple automation scripts quickly",
+    "category": "Language",
+    "level": "Beginner",
+    "popularity": "★★★★★"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "title": "Java",
+    "description": "Understand object-oriented programming concepts using Java language fundamentals",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "title": "TypeScript",
+    "description": "Add static typing to JavaScript for safer, scalable application development",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    "title": "C++",
+    "description": "Build high-performance applications using pointers, memory management, and classes",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+    "title": "C#",
+    "description": "Develop desktop, web, and game applications using Microsoft's C# language",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    "title": "Go",
+    "description": "Write fast, concurrent backend services using Google's simple Go language",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
+    "title": "Ruby",
+    "description": "Write clean, readable code using Ruby's elegant and expressive syntax",
+    "category": "Language",
+    "level": "Beginner",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    "title": "PHP",
+    "description": "Create dynamic server-side websites and applications using the PHP language",
+    "category": "Language",
+    "level": "Beginner",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+    "title": "Swift",
+    "description": "Build native iOS and macOS applications using Apple's Swift language",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+    "title": "Kotlin",
+    "description": "Develop modern Android apps using concise and safe Kotlin syntax",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg",
+    "title": "Rust",
+    "description": "Write memory-safe, high-performance systems code using the Rust language",
+    "category": "Language",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "title": "React",
+    "description": "Build interactive user interfaces using components, props, and hooks",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★★★"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    "title": "Angular",
+    "description": "Create large-scale single page applications using TypeScript and Angular framework",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "title": "Vue.js",
+    "description": "Build reactive frontend applications using Vue's component-based architecture",
+    "category": "Framework",
+    "level": "Beginner",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    "title": "Django",
+    "description": "Develop secure, database-driven web applications using Python's Django framework",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+    "title": "Flask",
+    "description": "Build lightweight web applications and APIs using Python's Flask microframework",
+    "category": "Framework",
+    "level": "Beginner",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+    "title": "Spring Boot",
+    "description": "Build enterprise-grade Java applications using Spring Boot's powerful framework",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "title": "Express.js",
+    "description": "Build fast, minimalist backend APIs using Node's Express.js framework",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "title": "Next.js",
+    "description": "Build server-rendered React applications with routing, and static generation",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+    "title": "Laravel",
+    "description": "Create elegant PHP web applications using Laravel's expressive syntax tools",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+    "title": "Ruby on Rails",
+    "description": "Build database-backed web applications quickly using Ruby on Rails",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg",
+    "title": "ASP.NET",
+    "description": "Develop robust web applications and services using Microsoft's ASP.NET framework",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    "title": "Flutter",
+    "description": "Create cross-platform mobile apps using Dart and Flutter widgets",
+    "category": "Framework",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
+    "title": "jQuery",
+    "description": "Simplify DOM manipulation and event handling using the jQuery library",
+    "category": "Library",
+    "level": "Beginner",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.worldvectorlogo.com/logos/lodash.svg",
+    "title": "Lodash",
+    "description": "Simplify array, object, and string manipulation using Lodash utility functions",
+    "category": "Library",
+    "level": "Beginner",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://axios-http.com/assets/logo.svg",
+    "title": "Axios",
+    "description": "Make HTTP requests easily from browser and Node.js applications",
+    "category": "Library",
+    "level": "Beginner",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+    "title": "NumPy",
+    "description": "Perform fast numerical computations using Python's powerful NumPy arrays",
+    "category": "Library",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+    "title": "Pandas",
+    "description": "Analyze and manipulate structured data easily using Python's Pandas library",
+    "category": "Library",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+    "title": "TensorFlow",
+    "description": "Build and train machine learning models using Google's TensorFlow library",
+    "category": "Library",
+    "level": "Intermediate",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    "title": "Redux",
+    "description": "Manage predictable application state using Redux's centralized store pattern",
+    "category": "Library",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/npm/chart.js/docs/favicon.ico",
+    "title": "Chart.js",
+    "description": "Create simple, responsive charts and graphs using the Chart.js library",
+    "category": "Library",
+    "level": "Beginner",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg",
+    "title": "D3.js",
+    "description": "Build custom, data-driven visualizations using the powerful D3.js library",
+    "category": "Library",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "title": "Bootstrap",
+    "description": "Design responsive websites quickly using Bootstrap's prebuilt components and grid",
+    "category": "Library",
+    "level": "Beginner",
+    "popularity": "★★★★☆"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    "title": "Tailwind CSS",
+    "description": "Style websites rapidly using Tailwind's utility-first CSS class system",
+    "category": "Library",
+    "level": "Beginner",
+    "popularity": "★★★★★"
+  },
+  {
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+    "title": "Material-UI",
+    "description": "Build polished React interfaces using Google's Material Design components",
+    "category": "Library",
+    "level": "Intermediate",
+    "popularity": "★★★☆☆"
+  }
+]
