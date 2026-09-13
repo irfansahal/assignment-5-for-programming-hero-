@@ -6,7 +6,7 @@ const Footer = () => {
             <div className=" md:flex justify-around pt-10">
                <div className="md:w-[450px]">
                   <div className="flex justify-center md:justify-start">
-                     <img src="../../public/logo-text.png"/>
+                     <img src="/logo-text.png"/>
                   </div>
                   <div className="pt-6">
                     <p className="text-center md:text-start text-[20px] font-light text-zinc-700">

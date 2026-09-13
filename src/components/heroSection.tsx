@@ -22,7 +22,7 @@ next project.</p>
                 </div>
                 </div>
                 <div className=" md:pl-0 md:flex-1">
-                   <img src="../../public/banner-stack.png"/>
+                   <img src="/banner-stack.png"/>
                 </div>
             </div>
         </div>
