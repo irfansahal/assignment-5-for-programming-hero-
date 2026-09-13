@@ -110,16 +110,16 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 } */
-
+/* orange → pink → violet */
 .linear_gradients{
-  background-image: linear-gradient(to right, rgb(211, 62, 8),  #8405b3);
+  background-image: linear-gradient(to right, rgb(246, 81, 20),rgb(246, 20, 167),  #8405b3);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
 .button{
-  background-image: linear-gradient(to right, rgb(211, 62, 8),  hsl(284, 95%, 40%));
+  background-image: linear-gradient(to right, rgb(211, 62, 8),rgb(246, 20, 167),  hsl(284, 95%, 40%));
   color: #f0ffff;
 }
 .card_container{
@@ -132,6 +132,16 @@ code {
   align-items: center;
 }
 @media (min-width: 600px) {
+  .card_container {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+  
+
+  }
+}
+ @media (min-width: 800px) {
   .card_container {
     display: grid;
   grid-template-columns: repeat(3, 1fr);

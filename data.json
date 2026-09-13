@@ -1,290 +1,372 @@
 [
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    "title": "JavaScript",
-    "description": "Learn variables, functions, and loops to start coding in JavaScript",
+    "id": "javascript",
+    "name": "JavaScript",
     "category": "Language",
-    "level": "Beginner",
-    "popularity": "★★★★★"
+    "description": "The core scripting language that powers interactivity across the web.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "rating": 4.8,
+    "difficulty": "Beginner",
+    "badge": "Most Popular"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-    "title": "Python",
-    "description": "Master Python syntax, data types, and simple automation scripts quickly",
+    "id": "python",
+    "name": "Python",
     "category": "Language",
-    "level": "Beginner",
-    "popularity": "★★★★★"
+    "description": "A readable, versatile language widely used for scripting, data, and AI.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner",
+    "badge": "Top Pick"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-    "title": "Java",
-    "description": "Understand object-oriented programming concepts using Java language fundamentals",
+    "id": "java",
+    "name": "Java",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A mature, object-oriented language known for portability and enterprise scale.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "rating": 4.5,
+    "difficulty": "Intermediate",
+    "badge": "Enterprise Staple"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-    "title": "TypeScript",
-    "description": "Add static typing to JavaScript for safer, scalable application development",
+    "id": "typescript",
+    "name": "TypeScript",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A typed superset of JavaScript that improves reliability at scale.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Rising Fast"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-    "title": "C++",
-    "description": "Build high-performance applications using pointers, memory management, and classes",
+    "id": "cpp",
+    "name": "C++",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A high-performance systems language used in games and low-level software.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    "rating": 4.4,
+    "difficulty": "Intermediate",
+    "badge": "Performance King"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-    "title": "C#",
-    "description": "Develop desktop, web, and game applications using Microsoft's C# language",
+    "id": "csharp",
+    "name": "C#",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A modern language from Microsoft used for apps, games, and enterprise tools.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+    "rating": 4.5,
+    "difficulty": "Intermediate",
+    "badge": "Game Dev Favorite"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
-    "title": "Go",
-    "description": "Write fast, concurrent backend services using Google's simple Go language",
+    "id": "go",
+    "name": "Go",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "A simple, fast language built by Google for scalable backend systems.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Cloud Native"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
-    "title": "Ruby",
-    "description": "Write clean, readable code using Ruby's elegant and expressive syntax",
+    "id": "ruby",
+    "name": "Ruby",
     "category": "Language",
-    "level": "Beginner",
-    "popularity": "★★★☆☆"
+    "description": "An elegant, expressive language focused on developer happiness and speed.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
+    "rating": 4.2,
+    "difficulty": "Beginner",
+    "badge": "Developer Friendly"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-    "title": "PHP",
-    "description": "Create dynamic server-side websites and applications using the PHP language",
+    "id": "php",
+    "name": "PHP",
     "category": "Language",
-    "level": "Beginner",
-    "popularity": "★★★☆☆"
+    "description": "A widely used server-side language that powers a large share of the web.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    "rating": 4.1,
+    "difficulty": "Beginner",
+    "badge": "Web Classic"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
-    "title": "Swift",
-    "description": "Build native iOS and macOS applications using Apple's Swift language",
+    "id": "swift",
+    "name": "Swift",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "Apple's modern language for building fast, safe iOS and macOS apps.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+    "rating": 4.5,
+    "difficulty": "Intermediate",
+    "badge": "iOS Standard"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
-    "title": "Kotlin",
-    "description": "Develop modern Android apps using concise and safe Kotlin syntax",
+    "id": "kotlin",
+    "name": "Kotlin",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "A concise, safe language and Google's preferred choice for Android development.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Android Standard"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg",
-    "title": "Rust",
-    "description": "Write memory-safe, high-performance systems code using the Rust language",
+    "id": "rust",
+    "name": "Rust",
     "category": "Language",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "A memory-safe systems language prized for speed and reliability.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Most Loved"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    "title": "React",
-    "description": "Build interactive user interfaces using components, props, and hooks",
+    "id": "react",
+    "name": "React",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★★★"
+    "description": "A component-based library for building fast, interactive user interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Industry Standard"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
-    "title": "Angular",
-    "description": "Create large-scale single page applications using TypeScript and Angular framework",
+    "id": "angular",
+    "name": "Angular",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A full-featured framework for building large-scale single page applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    "rating": 4.3,
+    "difficulty": "Intermediate",
+    "badge": "Enterprise Ready"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-    "title": "Vue.js",
-    "description": "Build reactive frontend applications using Vue's component-based architecture",
+    "id": "vuejs",
+    "name": "Vue.js",
     "category": "Framework",
-    "level": "Beginner",
-    "popularity": "★★★★☆"
+    "description": "An approachable framework for building reactive, component-driven interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "rating": 4.6,
+    "difficulty": "Beginner",
+    "badge": "Easy to Learn"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
-    "title": "Django",
-    "description": "Develop secure, database-driven web applications using Python's Django framework",
+    "id": "django",
+    "name": "Django",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A batteries-included Python framework for secure, database-driven web apps.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Batteries Included"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
-    "title": "Flask",
-    "description": "Build lightweight web applications and APIs using Python's Flask microframework",
+    "id": "flask",
+    "name": "Flask",
     "category": "Framework",
-    "level": "Beginner",
-    "popularity": "★★★★☆"
+    "description": "A lightweight Python microframework for building simple web apps and APIs.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+    "rating": 4.5,
+    "difficulty": "Beginner",
+    "badge": "Lightweight"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-    "title": "Spring Boot",
-    "description": "Build enterprise-grade Java applications using Spring Boot's powerful framework",
+    "id": "spring-boot",
+    "name": "Spring Boot",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A powerful framework for building production-ready Java applications fast.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+    "rating": 4.5,
+    "difficulty": "Intermediate",
+    "badge": "Enterprise Ready"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-    "title": "Express.js",
-    "description": "Build fast, minimalist backend APIs using Node's Express.js framework",
+    "id": "expressjs",
+    "name": "Express.js",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A minimal, flexible Node.js framework for building web servers and APIs.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Node Favorite"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-    "title": "Next.js",
-    "description": "Build server-rendered React applications with routing, and static generation",
+    "id": "nextjs",
+    "name": "Next.js",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A React framework offering server rendering, routing, and static generation.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Trending"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
-    "title": "Laravel",
-    "description": "Create elegant PHP web applications using Laravel's expressive syntax tools",
+    "id": "laravel",
+    "name": "Laravel",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "An elegant PHP framework known for clean syntax and rapid development.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+    "rating": 4.4,
+    "difficulty": "Intermediate",
+    "badge": "PHP Favorite"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
-    "title": "Ruby on Rails",
-    "description": "Build database-backed web applications quickly using Ruby on Rails",
+    "id": "ruby-on-rails",
+    "name": "Ruby on Rails",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "A convention-driven framework for quickly building database-backed web apps.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+    "rating": 4.3,
+    "difficulty": "Intermediate",
+    "badge": "Rapid Build"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg",
-    "title": "ASP.NET",
-    "description": "Develop robust web applications and services using Microsoft's ASP.NET framework",
+    "id": "aspnet",
+    "name": "ASP.NET",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "Microsoft's robust framework for building modern web apps and services.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg",
+    "rating": 4.3,
+    "difficulty": "Intermediate",
+    "badge": "Enterprise Ready"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
-    "title": "Flutter",
-    "description": "Create cross-platform mobile apps using Dart and Flutter widgets",
+    "id": "flutter",
+    "name": "Flutter",
     "category": "Framework",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "Google's toolkit for building natively compiled cross-platform mobile apps.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Cross-Platform"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
-    "title": "jQuery",
-    "description": "Simplify DOM manipulation and event handling using the jQuery library",
+    "id": "jquery",
+    "name": "jQuery",
     "category": "Library",
-    "level": "Beginner",
-    "popularity": "★★★☆☆"
+    "description": "A classic library that simplifies DOM manipulation and event handling.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
+    "rating": 4.0,
+    "difficulty": "Beginner",
+    "badge": "Web Classic"
   },
   {
-    "logo": "https://cdn.worldvectorlogo.com/logos/lodash.svg",
-    "title": "Lodash",
-    "description": "Simplify array, object, and string manipulation using Lodash utility functions",
+    "id": "lodash",
+    "name": "Lodash",
     "category": "Library",
-    "level": "Beginner",
-    "popularity": "★★★☆☆"
+    "description": "A utility library that simplifies working with arrays, objects, and strings.",
+    "icon": "https://cdn.worldvectorlogo.com/logos/lodash.svg",
+    "rating": 4.3,
+    "difficulty": "Beginner",
+    "badge": "Utility Belt"
   },
   {
-    "logo": "https://axios-http.com/assets/logo.svg",
-    "title": "Axios",
-    "description": "Make HTTP requests easily from browser and Node.js applications",
+    "id": "axios",
+    "name": "Axios",
     "category": "Library",
-    "level": "Beginner",
-    "popularity": "★★★★☆"
+    "description": "A promise-based HTTP client for making requests in browsers and Node.js.",
+    "icon": "https://axios-http.com/assets/logo.svg",
+    "rating": 4.6,
+    "difficulty": "Beginner",
+    "badge": "HTTP Favorite"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
-    "title": "NumPy",
-    "description": "Perform fast numerical computations using Python's powerful NumPy arrays",
+    "id": "numpy",
+    "name": "NumPy",
     "category": "Library",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A foundational library for fast numerical computing in Python.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Data Science Core"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
-    "title": "Pandas",
-    "description": "Analyze and manipulate structured data easily using Python's Pandas library",
+    "id": "pandas",
+    "name": "Pandas",
     "category": "Library",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "A powerful library for analyzing and manipulating structured data in Python.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Data Science Core"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-    "title": "TensorFlow",
-    "description": "Build and train machine learning models using Google's TensorFlow library",
+    "id": "tensorflow",
+    "name": "TensorFlow",
     "category": "Library",
-    "level": "Intermediate",
-    "popularity": "★★★★☆"
+    "description": "Google's open-source library for building and training machine learning models.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "ML Standard"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-    "title": "Redux",
-    "description": "Manage predictable application state using Redux's centralized store pattern",
+    "id": "redux",
+    "name": "Redux",
     "category": "Library",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "A predictable state container commonly paired with React applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    "rating": 4.3,
+    "difficulty": "Intermediate",
+    "badge": "State Management"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/npm/chart.js/docs/favicon.ico",
-    "title": "Chart.js",
-    "description": "Create simple, responsive charts and graphs using the Chart.js library",
+    "id": "chartjs",
+    "name": "Chart.js",
     "category": "Library",
-    "level": "Beginner",
-    "popularity": "★★★☆☆"
+    "description": "A simple, flexible library for creating responsive charts and graphs.",
+    "icon": "https://cdn.jsdelivr.net/npm/chart.js/docs/favicon.ico",
+    "rating": 4.4,
+    "difficulty": "Beginner",
+    "badge": "Easy Charts"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg",
-    "title": "D3.js",
-    "description": "Build custom, data-driven visualizations using the powerful D3.js library",
+    "id": "d3js",
+    "name": "D3.js",
     "category": "Library",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "A powerful library for creating custom, data-driven visualizations.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg",
+    "rating": 4.5,
+    "difficulty": "Intermediate",
+    "badge": "Data Viz Pro"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-    "title": "Bootstrap",
-    "description": "Design responsive websites quickly using Bootstrap's prebuilt components and grid",
+    "id": "bootstrap",
+    "name": "Bootstrap",
     "category": "Library",
-    "level": "Beginner",
-    "popularity": "★★★★☆"
+    "description": "A prebuilt component and grid system for quickly designing responsive sites.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "rating": 4.4,
+    "difficulty": "Beginner",
+    "badge": "Web Classic"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-    "title": "Tailwind CSS",
-    "description": "Style websites rapidly using Tailwind's utility-first CSS class system",
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
     "category": "Library",
-    "level": "Beginner",
-    "popularity": "★★★★★"
+    "description": "A utility-first CSS framework for rapidly building custom designs.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner",
+    "badge": "Most Loved"
   },
   {
-    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-    "title": "Material-UI",
-    "description": "Build polished React interfaces using Google's Material Design components",
+    "id": "material-ui",
+    "name": "Material-UI",
     "category": "Library",
-    "level": "Intermediate",
-    "popularity": "★★★☆☆"
+    "description": "A React component library implementing Google's Material Design system.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+    "rating": 4.4,
+    "difficulty": "Intermediate",
+    "badge": "Design System"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Top SQL"
   }
 ]

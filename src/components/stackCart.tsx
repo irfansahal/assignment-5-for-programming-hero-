@@ -6,12 +6,12 @@ const StackCart = ({stackedData, setStackedData}) => {
     
      const deleteHandler = (StackedCart) => {
           const filteredData = stackedData.filter(item=>{
-            if(StackedCart.title !== item.title){
+            if(StackedCart.id !== item.id){
                 return item
             }
           })
           setStackedData(filteredData)
-          toast.success(`Current ${StackedCart.title} Deleted Successfully`)
+          toast.success(`Current ${StackedCart.name} Deleted Successfully`)
      }
 
     return(
@@ -22,10 +22,10 @@ const StackCart = ({stackedData, setStackedData}) => {
                     mt-5
                     ">
                         <div>
-                            <img src={item?.logo} className="w-10 h-10"/>
+                            <img src={item?.icon} className="w-10 h-10"/>
                         </div>
                         <div>
-                            <p className="font-bold ">{item.title}</p>
+                            <p className="font-bold ">{item.name}</p>
                             <p>{item.category}</p>
                         </div>
                          <div className="pl-20 pt-2">

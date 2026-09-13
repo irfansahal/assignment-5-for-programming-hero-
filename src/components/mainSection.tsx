@@ -1,6 +1,7 @@
 import { Suspense, useState } from "react";
 import CardStack from "./card";
 import StackCart from "./stackCart";
+import { toast } from "react-toastify";
 
 
 const MainContent = () => {
@@ -50,6 +51,7 @@ const MainContent = () => {
              <button className="px-9 py-3 rounded-2xl text-red-500 border-[0.5px] border-red-500 h-[50px] mt-5"
              onClick={()=>{
               setStackedData([])
+              toast(`All data removed successfully`)
              }}
              >
                        Remove The Item
