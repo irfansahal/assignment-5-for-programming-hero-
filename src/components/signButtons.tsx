@@ -17,16 +17,18 @@ const SigninUpButton = () =>  {
             setClicMode1(false)
     
         }
-    const style = "px-5 py-3 bg-[#E2297B] font-bold text-amber-50 rounded-full mx-4";
+    const style = "sm:px-3 py-2 md:px-5 md:py-3 bg-[#E2297B] md:font-bold text-amber-50 rounded-full sm:mx-4";
   
     return(
         <>
-            <button className={`${clicMode1 === true ? style : ""} cursor-pointer`}
+            <div className=" flex ">
+                <button className={`min-w-25 ${clicMode1 === true ? style : ""} cursor-pointer`}
                 onClick={ clickModeChangeHandler1}
                 >Sign In</button>
-                <button className={`${clicMode2 === true ? style : ""} cursor-pointer`}
+                <button className={`min-w-25 ${clicMode2 === true ? style : ""} cursor-pointer`}
                  onClick={clickModeChangeHandler2}
                 >Sign Up</button>
+            </div>
         </>
     )
 }

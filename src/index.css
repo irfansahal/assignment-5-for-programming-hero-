@@ -112,7 +112,7 @@ code {
 } */
 
 .linear_gradients{
-  background-image: linear-gradient(to right, rgb(211, 62, 8),  hsl(284, 95%, 40%));
+  background-image: linear-gradient(to right, rgb(211, 62, 8),  #8405b3);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -127,8 +127,9 @@ code {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   gap: 25px;
-  margin: 0px auto;
-  width: 100%;
+   padding-left: 30px;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 600px) {
   .card_container {
@@ -136,15 +137,13 @@ code {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 15px;
-  margin: 0px auto;
+  
+
   }
 }
-
-  .fotter{
-    display: none;
-  }
-@media  (min-width: 600px){
-  .fotter{
-    display: block;
-  }
+.nav_container{
+  position: fixed;
+   top: 0;         /* Aligns to the top edge of the screen */
+  left: 0;        /* Aligns to the left edge of the screen */
+  width: 100%;
 }

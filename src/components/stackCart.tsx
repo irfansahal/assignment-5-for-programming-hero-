@@ -18,7 +18,7 @@ const StackCart = ({stackedData, setStackedData}) => {
         <>
         <div>
                 {stackedData?.map((item, index)=>{
-                    return  <div key={index} className="w-[300px] h-[80px]   rounded-2xl bg-white flex p-4 gap-4
+                    return  <div key={index} className="w-[280px] md:w-[280px] md:h-[80px]   rounded-2xl bg-white flex p-4 gap-4
                     mt-5
                     ">
                         <div>

@@ -8,11 +8,19 @@ import Navigation from './nav/navigation'
 function App() {
 return(
   <>
-    <div className='h-auto my-0 mx-auto'>
-     <Navigation/>
-     <HeroSection/>
-     <MainContent/>
-     <Footer/>
+    <div 
+    className='h-auto my-0 mx-auto'
+    >
+     <div>
+      <Navigation/>
+     </div>
+     <div>
+      <HeroSection/>
+     </div>
+   <div>
+       <MainContent/> 
+   </div>
+      <Footer/> 
     </div>
   </>
 )    

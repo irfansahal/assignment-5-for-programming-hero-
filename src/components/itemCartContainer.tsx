@@ -10,7 +10,7 @@ const CartContainer = ({index,item,stackedData,setStackedData}) => {
     
     return(
         <>
-        <div key={index} className="w-[600px] h-[270] md:w-[270px] md:h-[330px] rounded-2xl shadow-md bg-[#f5f0f3]">
+        <div key={index} className="w-[320px] h-[270] md:w-[270px] md:h-[330px] rounded-2xl shadow-md bg-[#f5f0f3]">
                 <div className="p-5 rounded-2xl  ">
                  <div>
                  <img src={item.logo} className="w-[55px] h-[55px]"/>
@@ -21,7 +21,7 @@ const CartContainer = ({index,item,stackedData,setStackedData}) => {
                    <p className="pt-2 text-zinc-600 font-light text-sm">{item.description}</p>
                  </div>
               
-                 <div className="w-[520px] md:w-[220px] text-center h-[0.1px] bg-zinc-700 mt-10"></div>
+                 <div className="w-[280px] md:w-[220px] text-center h-[0.1px] bg-zinc-700 mt-10"></div>
                  <div className=" pb-2 flex justify-around gap-3 pt-3">
                   <div className="text-sm text-zinc-600 font-bold bg-[#c8e8f6] p-1 rounded-lg">{item.category}</div>
                   <div className="text-sm font-bold text-zinc-600">{item.level}</div>

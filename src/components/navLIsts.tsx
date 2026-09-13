@@ -63,7 +63,7 @@ const NavLists = () => {
    
     return(
         <>
-        <ul className="md:flex gap-6">
+        <ul className=" sm:flex gap-6 ">
                     <li className={`pb-5 md:pb-0 ${ clicMode.btn1 === true ? listStyle : ""} cursor-pointer `}
                     onClick={btn1Handler}
                     >Home</li>
