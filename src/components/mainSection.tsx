@@ -7,7 +7,7 @@ import type { Item } from "../types/type";
 
 const MainContent = () => {
   const dataFetching = async (): Promise<Item[]> => {
-    const res = await fetch('../../data.json')
+    const res = await fetch('/data.json')
     const data = await res.json();
     console.log("data",data);
     
